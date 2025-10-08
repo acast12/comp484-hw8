@@ -112,7 +112,7 @@ footer h2 {
 /* Education
 ------------------------------------*/
 .education {
-    background-image: url("/images/csun.jpg.avif");
+    background-image: url("images/csun.jpg.avif");
     background-position: center;
     background-size: cover;
     margin: 0;

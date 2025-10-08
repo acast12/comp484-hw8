@@ -1,26 +1,134 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+# - 363732 black olive
+# - 53D8FB sky blue
+# - 66C3FF maya blue
+# - DCE1E9 alice blue 
+# - D4AFB9 orchid pink
 */
 
 /* Global styles 
 ------------------------------------*/
 body {
-    /*background: lightblue;*/
+    background: #363732;
+    font-family: 'Lusitana', sans-serif;
 }
+
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    color: #e72c2c;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Playfair', sans-serif;
+    font-size: 15px;
+    font-weight: 400    ;
+}
+
 
 
 /* Header & Footer 
 ------------------------------------*/
+header {
+    background: #363732;
+    color: #DCE1E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+header img {
+    width: 300px;
+    height: auto;
+    border: 3px solid #DCE1E9;
+    border-radius: 50%;
+}
+
+header h1 {
+    color: #e72c2c
+}
+
+header h2 {
+    color:#959595;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;    
+  justify-content: center;     
+}
+
+.text-container h1, .text-container h2, .text-container p {
+  margin: 5px 0;              
+}
+
+footer {
+    background-color: #493636;
+    color: #DCE1E9;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    color: #e72c2c;
+    padding: 10px;
+}
+
+footer h2 {
+    color: #DCE1E9;
+}
+
+.social-links {
+
+}
 
 
 
 /* Work Experience
 ------------------------------------*/
+.work-exp {
+    background: #DCE1E9;
+    color: #363732;
+    padding: 50px;
+    margin: 0;
+}
 
 
 
 /* Education
 ------------------------------------*/
+.education {
+    background-image: url("/images/csun.jpg.avif");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 50px;
+    color: #DCE1E9;
+}
+
+.education-text-container {
+    background: #363732D0;
+    border-radius: 10px;
+    border: 3px solid #000000;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-size: 50px;
+}
+
+
+
+
